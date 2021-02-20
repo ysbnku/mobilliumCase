@@ -8,7 +8,7 @@ import ObjectMapper
 import Foundation
 
 struct Model : Mappable {
-    var results:[Results]
+    var results:[Results]?
 
     init?(map: Map) {    }
     
