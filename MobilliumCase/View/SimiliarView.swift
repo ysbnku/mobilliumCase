@@ -81,7 +81,7 @@ class SimiliarCell:UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor = .white
-        img.frame = CGRect(x: 5, y: 5, width: frame.width - 10, height: frame.height - 40)
+        img.frame = CGRect(x: 5, y: 5, width: frame.width - 10, height: frame.height - 70)
         img.contentMode = .scaleAspectFill
         img.layer.cornerRadius = 6
         img.layer.masksToBounds = true

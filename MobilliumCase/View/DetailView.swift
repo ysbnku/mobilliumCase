@@ -76,7 +76,7 @@ class DetailView: UIView {
         star.image = UIImage(named: "star")
         addSubview(star)
         
-        similiarView.frame = CGRect(x: 0, y: star.frame.maxY + 10, width: frame.width, height: 170)
+        similiarView.frame = CGRect(x: 0, y: star.frame.maxY + 10, width: frame.width, height: 190)
         similiarView.rootVC = rootVC
         similiarView.initCollectionView()
         addSubview(similiarView)
